@@ -1,0 +1,269 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+.parent{
+    height: auto;
+    width: 100%;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.5px;
+}
+.parent .row{
+    margin:0;
+}
+.parent .top-head{
+    height:  50px;
+    background: #333;
+    /* display: flex; */
+    position: relative;
+}
+.top-head .social-icon{
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    width: 30%;
+    float: left;
+}
+.top-head .social-icon li{
+    padding: 5px;
+    margin: 5px;
+    border: .5px solid #444;
+}
+.top-head .ct-hd-dtl{
+    color: #fff;
+    width: auto;
+    display: flex;
+    list-style-type: none;
+    float: right;
+    font-size: 14px;
+}
+.top-head .ct-hd-dtl li{
+    padding: 5px;
+    margin: 5px;
+    border: .5px solid #444;
+}
+.navbar{
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    position: relative;
+    transition: 0.30s ease-in-out;
+}
+.navbar .navigation ul{
+    display: flex;
+    list-style-type: none;
+}
+.navigation ul li{
+    margin: 5px 20px;
+    font-size: 14px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    transition: 0.30s ease-in-out;
+}
+.navigation ul li a:hover{
+    color:#ED5A5A;
+}
+.scrolled{
+    position: sticky !important;
+    z-index: 1;
+    top: 0;
+    background-color: rgba(255,255,255,0.66);
+}
+.slider{
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+.slider img{
+    height: 100%;
+    width: 100%;
+}
+.second-as{
+    position: relative;
+    height: auto;
+    background-color: rgb(232,232,232);
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.second-as img{
+    width: 100%;
+}
+.second-as .as-dtl{
+    background-color: #fff;
+    padding: 5px 20px 10px 20px;
+    font-size: 13px;                    
+    color: gray;
+    letter-spacing: 1.5px;
+}
+.third-as{
+    height: 700px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url('../images/bak1.jpg');
+    background-attachment: fixed;
+    position: relative;
+}
+.third-as .third-cont{
+    height: auto;
+    width: 40%;
+    margin: 5% 0 0 10%;
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+.third-cont h4{
+    font-family: "Open Sans";
+    padding: 10px;
+}
+.third-cont p{
+    color: rgb(148, 150, 162);
+    font-family: "Lato";
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.forth-as{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+}
+.forth-as .mnus{
+    position: relative;
+    font-size: 100px;
+    font-family: "Open Sans";
+    margin: 0 0 0 10%;
+    padding-top: 5%;
+    background-color: rgb(245, 245, 245);
+}
+
+.forth-as .ffr p{
+    font-size: 23px;
+    background-color: rgba(255,255,255,0.66);
+    padding: 20px;
+    margin-top: 30%;
+}
+.forth-as .fr1{
+    text-align: center;
+    height: 300px;
+    background-image: url("../images/mn1.jpg");
+    background-size: 100% 100%;
+}
+.forth-as .fr2{
+    text-align: center;
+    height: 300px;
+    background-image: url("../images/mn2.jpg");
+    background-size: 100% 100%;
+}
+.forth-as .fr3{
+    text-align: center;
+    height: 300px;
+    background-image: url("../images/mn3.jpg");
+    background-size: 100% 100%;
+}
+.forth-as .fr-cnt{
+    color: rgb(148, 150, 162);
+    font-size: 14px;
+    font-family: "Lato";
+    margin-top: 100px;
+}
+.fifth-as{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url("../images/bak2.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.six-as{
+    height: 700px;
+    position: relative;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+.six-as .prv-logo{
+    height: 150px;
+    width: 60%;
+    background-size: 100% 100%;
+    background-image: url("../images/prv.png");
+    margin-top: 10%;
+}
+.six-as p{
+    color: rgb(148, 150, 162);
+    font-size: 14px;
+    font-family: "Lato";
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.six-as p ul li{
+    line-height: 30px;
+}
+.six-as .pvt-book{
+    height: 300px;
+    width: 100%;
+    margin-top: 20%;
+    background-size: 100% 100%;
+    background-image: url("../images/prvbak.jpg");
+}
+.seven-as{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-image: url("../images/foot.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}   
+.seven-as .fnus{
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 10px;
+    font-family: "Open Sans";
+    margin: 5% 0 0 0;
+}
+.seven-as .fnus1{
+    font-size: 70px;
+    letter-spacing: 15px;
+    position: relative;
+    margin-left: 20%;
+}
+.seven-as .svn-hd{
+    color: #3E4C53;
+    font-size: 20px;
+    font-family: "Lato";
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.seven-as .svn-dtl{
+    font-size: 14px;
+    font-family: "Lato";
+    font-weight: bold;
+}
+.seven-as .svn-cnt-ml{
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px;
+    margin-left: 20%;
+    position: relative;
+}
+.seven-as .svn-cnt-dtl{
+    font-size: 14px;
+    font-family: "Lato";
+    /* font-weight: bold; */
+    margin-left: 20%;
+}
+.last{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+}
